@@ -87,4 +87,4 @@ func main() {
 
 	fmt.Println("Max(7, 11):", mathx.Max(7, 11))
 }
->>>>>>> 403773eea27b6e5490271127b63ca5c4f2f7b987
+
