@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Students API (Go + MySQL)
 
 ## DB
@@ -9,3 +10,6 @@
 1. In main.go, set DSN password: root:YOUR_PASSWORD@tcp(127.0.0.1:3306)/myfile?parseTime=true
 2. Install deps:
 3. start:
+=======
+# goproject
+>>>>>>> 403773eea27b6e5490271127b63ca5c4f2f7b987
