@@ -3,6 +3,7 @@ package api
 import (
 	"database/sql"
 	"net/http"
+<<<<<<< HEAD
 
 	"github.com/IBM/sarama"
 )
@@ -12,4 +13,10 @@ func RegisterRoutes(db *sql.DB, producer sarama.SyncProducer) {
 	http.HandleFunc("/create", h.CreateHandler())
 	http.HandleFunc("/update", h.UpdateHandler())
 	http.HandleFunc("/delete", h.DeleteHandler())
+=======
+)
+
+func RegisterRoutes(db *sql.DB) {
+	http.HandleFunc("/create", CreateHandler(db))
+>>>>>>> origin/main
 }
